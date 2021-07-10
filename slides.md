@@ -212,8 +212,10 @@ Seeking help
 <!--
 When it comes to debugging 
 
-- Maintaining context to be extremely important
-  - Keeping track of the problem, and your understanding of it, and there is no better way to do it than writing it all down, 
+- Maintaining context 
+  - Keeping track of the problem definition, your observations and understanding of it is
+    extremely important to solving the problem
+  - And there is no better way to do it than writing it all down, 
   - Especially since it gets difficult to manage all the complexity in the mind
   - Because you're not only asserting the problem exists, but also, most of the times,
   - Just by defining the problem clearly helps alot with finding the solution or understand the direction to pursue
@@ -259,9 +261,9 @@ Documentation
 
 Clean Code
 
-Performance
-
 Short term hacks
+
+Performance
 
 </v-clicks>
 
@@ -278,32 +280,43 @@ Documentation
 
 
 
+Short term hacks
+
+  - Often, when you're working on adding features to an existing product, you find yourself in a dilemma:
+    - You can do a quick hack or take time to refactor the system
+      - The short hack makes a small mess in the code, but you feel very clear about it now.
+      - But the problem is, these small hacks have a tendency to accumulate and the code becomes ugly to read
+      - And refactors tend to get harder to do over the period, making the codebase unmaintainable.
+
+  - Which brings us to the next point on writing clean code
+
+
 Clean Code
 
-  - This is the most important quality of a software developer, in my opinion
-  - How many times have you personally encountered badly written code only to realize it was you that has written and even forgotten it?
-    - I certainly did
+  - Writing clean code is mostly about showing empathy to the maintainer and others working on the code base.
+    - Have you not felt the pain in understanding bad code written by others?
+    - Have you not seen ugly code only to find out it was us that wrote it long back?
+    
+  - I certainly did, and I've learnt the hard way that
+    - in most of the cases, readability of code translates to clarity of the mind of the developer writing it
+    - and clarity inturn translates to the stability of the system
 
-  - Actually, code is read way more often than it is written
-
-  - It should always be written in a readable manner
-  - With all the code formatters and linters available, it's most certainly a crime to commit poorly written code
+  - With all the code formatters, linters, and code quality evaluation tools available,
+    it's not an acceptable excuse to write poorly formatted on logically unsound code
 
   - A well written piece of code conveys the clarity of the coder which directly translates to the stability of the system
 
+  - Actively allocate time to clear tech debt and work on refactoring the codebase.
+  - A clean codebase is the fertile soil where beautiful flowers (products) grow.
+
+
 - On performance
-  - Writing efficient code is equally important
-  - Saying I don't care about the time-complexity or readability of this piece of code is an
-  - indication of lack of empathy for peers and the environment, And, I do say empathy to the environment because,
-  - by writing compute efficient code, you have a direct impact on it
-  - This is one of the first learnings I've learnt as soon as I started working in a team
-
-
-Short term hacks
-
-  - Most often, when you're working on adding features to an existing product, you find a dilemma:
-    - A short quick hack vs a slight refactor 
-    - The short hack
+  - Over the years I've realized that writing efficient code is equally important
+  - Saying I don't care about the time-complexity of this is easy to do
+  - but it indicates of lack of empathy to the users and the environment,
+  - and, I do say empathy to the environment because,
+  - by writing slightly resource efficient code, you have a direct impact on the enviornment  
+  - So, always choose the right solution, not the easy one
 
 
 -->
@@ -320,16 +333,15 @@ layout: fact
 
 Finding motivation
 
-Making progress
+Setting expectations
 
-Avoiding drudgery
+Making progress
 
 Maintaining Focus
 
 </v-clicks>
 
 <!--
-
 - Finding Motivation
   - Motivation can be many things
     - Creating something, getting things done, solving hard problems
@@ -342,28 +354,37 @@ Maintaining Focus
     - We learn a lot of things and have fun automating some drudgery
       - How we've automated react native builds with Github actions
 
-- Making progress
-  - Breaking down work, tackling it part by part
-  - Prioritizing progress over perfection, it's a trap to want to build the perfect product
-  - Following the Pareto principle - you would look for and prioritize work which captures 80% value with 20% effort
+- Setting expectations
+  - Something I've learnt the hardway is, planning is very important, to keep all the stakeholders
+    on the same page with what's happening
+  - Estimating things correctly is still elusive to me, but I do believe it to be the most important aspect
+    of maintaining a healthy work-life balance and avoiding burnout
 
-- Refactoring proactively
+- Making progress
+  - Breaking down work helps a lot to tackle it in parts
+
+  - It's also important to say no to scale when you are starting from scratch
+    - Premature Optimization as it is the root of all evil
+    - You are going to need it, is not a good excuse to add complexity to system early on
+
+  - Important to prioritize progress over perfection since usually the effort to go from good to great increases sharply
+    - Following the Pareto principle
+      - looking for and prioritizing work which creates 80% value with 20% effort
+
+  - It takes discipline to stay focussed on what you need to solve
+  - One of those aspects is avoiding exploring shiny things that we come across when researching for solutions
+    - Noting down these things and exploring them later helps both ways: to stay focussed and also to broaden your knowledge
 
 - Maintaining Focus
-  - Avoiding trips to the candyland
-    - It takes discipline to stay focussed on what you need to solve
-    - There are a lot of distractions when you are researching the solution space
-    - Noting down these things and exploring them later helps alot to deal with staying focussed
-
-  - Understanding Deep Work
-    - How do you get into a Flow?
-      - How do you do it consistently?
-    - Fostering situations for it to happen
+  - Also, on doing Deep Work
+    - Time tracking tools like Qbserve worked well for me, to help build a habit of doing undistracted work, letting me do 15 hours of focused work when necessary.
+    - Investing in creating a peaceful and conducive environment
       - Removing attention sinks
         - Case of the refridgerator
         - Meetings
         - Adhoc issue reports
         - Support calls
+    - It may take time, but find your own flow, understand how you can consistantly get into a flow state and do the best work of your life.
 -->
 
 ---
@@ -387,7 +408,8 @@ Mentoring
 
 <!--
 
-Feedback is the greatest factor for improving anything, a product, design, or even ourselves. (5 min)
+Seeking feedback early and often is the greatest factor for improving anything:
+  product, design, or even ourselves. (5 min)
 
 - Priorities
   - Having high level objectives avoids uncertainty and existential criseses
@@ -405,10 +427,6 @@ Feedback is the greatest factor for improving anything, a product, design, or ev
     - Does the design make sense?
 
 - Code
-  - Writing Tests
-    - Is a great way to get instant feedback on the code you've written
-
-
   - Code Reviews
     - A fresh perspective to make sure we didn't miss anything
     - It's also a good way to stay up to date with changes happening in a pr
