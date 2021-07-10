@@ -1,0 +1,70 @@
+<!--
+
+---
+layout: fact
+---
+
+## Communication
+
+
+
+Vocabulary:
+
+We'll explore this further in a little more detail.
+
+Okay, how many of you have had a long list of "Things to Google" when starting to learn programming? I sure did.
+
+And to be able understand, you need to know the basic concepts on top of which you can base your understanding.
+
+It's like trying to speak a different language with out knowing many words or grammar the grammar.
+So taking time to build your understanding of basic concepts lays the foundation for confidently working with a system.
+
+When I started programming, . I am sure many of you would relate to that.
+
+
+
+
+Resistance to explore unfamiliar spaces:
+
+Quickly goes away
+
+-->
+
+
+
+
+<!-- 
+
+This is one of the most important skills to have as a developer
+that how easily are you able to understand new concepts.
+
+Progressive Enhancement
+  - Avoiding premature optimization
+  - Tracking progress
+
+Coding Consciously
+  - Flow
+  - Finding Motivation
+  - Context Switching
+
+
+Clean Code
+  - Readability
+  - Avoiding short term hacks
+  - Modern Tooling
+
+Managing Complexity
+  - Navigating
+
+Context switching
+  Focus / Qbserve
+Short term hacks
+Getting lost
+Dealing with loss of motivation
+Not being attached to ideas
+Avoiding premature optimization
+Reinventing the wheel
+Conventions vs configuration
+Documentation
+
+- Pareto Principle -->
