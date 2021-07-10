@@ -199,8 +199,6 @@ Maintaining context
 
 First Principles Reasoning
 
-Attacking the problem
-
 Knowing your tools
 
 Taking a break
@@ -236,17 +234,25 @@ When it comes to debugging
   - Validation
   - Understanding
 
-- Trial and Error
-
 - Tools
   - Logging
+    - Logging at multiple parts of the system helps understand more about the problem and narrow down where the issue would be happening
   - Debugger mastery
-  - Rubber duck debugging
-    - Not losing track of the direction of the problem solving
+    - helps not only with fixing bugs but also, with understanding a range of aspects:
+      - performance tuning
+      - identifying and fixing memory leaks
+      - improving load times
+  - The amount of work that went into debugging and instrumentation tools is crazy, although a good design and tests suite helps you avoid debugging, it's a great skill to have and certainly helps see the bigger picture of how things work under the hood.
 
 - Taking a break
+  - If a problem takes more than an hour, usually taking a break for 5-10 minutes and then giving it another shot helps.
+  - When we come back, we look at the problem in a new pespective, rather than hanging on to old perspective and the problem will be solved.
 
 - Seeking help
+  - And when that doesn't happen either, it's a good idea to get help, from a colleage or posting it online, on twitter or stackoverflow
+  - One of the interesting things is, almost always someone somewhere would have solved the problem you are facing, and it comes to whether you can the solution.
+  - Being able to Google well is a super power without a doubt
+
 -->
 
 ---
