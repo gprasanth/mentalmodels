@@ -180,7 +180,7 @@ As developers we need to communicate a lot. With the machine, ourselves, peers, 
 
 - And with other stakeholders in the project and even customers that may not have a technical background
   - It's easier for you to understand their domain than for them to understand ours
-  - Helps to understand the domain you are working on
+
   - A great excercise here is to connect with and talk to people outside of your circle -- designers, product managers, customers or people from other walks of life
 
 Moving on
@@ -224,13 +224,17 @@ When it comes to debugging
   - Approaches
     - Natural tendency, especially when you are early in your developer journey, is to use trial and error to fix problems
       - Change something and log system behaviour
-    - It is still helpful when dealing with poorly documented or highly complex systems
+      - It is still helpful when dealing with poorly documented or highly complex systems
 
     - First Principles Reasoning
       - What do we know about the system?
       - What is the exepected behaviour?
       - What is the actual behaviour?
       - Formulating and testing different hypothesis while making observations and reasoning
+
+    - Elimination
+      - Add logs in various parts of the system and try to eliminate the parts that are not the cause.
+      - "Once you eliminate the improbable, whatever remains, no matter how impossible, must be the truth."
   - Validation
   - Understanding
 
@@ -249,8 +253,8 @@ When it comes to debugging
   - When we come back, we look at the problem in a new pespective, rather than hanging on to old perspective and the problem will be solved.
 
 - Seeking help
-  - And when that doesn't happen either, it's a good idea to get help, from a colleage or posting it online, on twitter or stackoverflow
-  - One of the interesting things is, almost always someone somewhere would have solved the problem you are facing, and it comes to whether you can the solution.
+  - And when that doesn't happen either, it's a good idea to get help, from a colleage or posting it online, on stackoverflow
+  - Communicate the most information with the least amount of words. This requires a lot of mental energy on your part but will increase the likelihood of getting help back
   - Being able to Google well is a super power without a doubt
 
 -->
@@ -275,8 +279,10 @@ Performance
 
 <!--
 
-Documentation
 
+Documentation
+  - Coding explains you 'how' and documentation explains you 'why
+  
   - Nothing beats a great documentation when it comes to making a project or a library a easy to work with
 
   - Writing clear documentation means being able to simplifying concepts and communicating them clearly, and that requires a lot of effort
